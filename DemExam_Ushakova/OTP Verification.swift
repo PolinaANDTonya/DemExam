@@ -1,14 +1,22 @@
+
 //  для страницы "OTP_Virification"
+=======
+
 //
 //  OTP Verification.swift
 //  DemExam_Ushakova
 //
+
 //  Created by Ушакова Антонина Андреевна on 12.10.2024.
+=======
+//  Created by User on 12.10.2024.
+
 //
 
 import SwiftUI
 
 struct OTP_Verification: View {
+
     @State private var checkBox: Bool = false
     @State private var isShowingDetailView = false
     @State var Code: String = ""
@@ -141,6 +149,10 @@ struct OTP_Verification: View {
             }
         }
         .navigationBarHidden(true)
+=======
+    var body: some View {
+        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+
     }
 }
 

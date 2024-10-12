@@ -1,8 +1,12 @@
+
 // Тоже для работы с функциями Supabase
+=======
+
 //
 //  Reposetories.swift
 //  DemExam_Ushakova
 //
+
 //  Created by Ушакова Антонина Андреевна on 12.10.2024.
 //
 
@@ -55,4 +59,10 @@ class Repositories {
     }
 
 
+
+
+//  Created by User on 12.10.2024.
+//
+
+import Foundation
 

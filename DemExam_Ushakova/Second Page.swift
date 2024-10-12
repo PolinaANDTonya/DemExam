@@ -1,12 +1,20 @@
+
 // для экрана "Log in"
+=======
+
 //
 //  Second Page.swift
 //  DemExam_Ushakova
 //
+
 //  Created by Ушакова Антонина Андреевна on 12.10.2024.
+=======
+//  Created by User on 12.10.2024.
+
 //
 
 import SwiftUI
+
 
 struct SecondPage: View {
     
@@ -163,10 +171,20 @@ struct SecondPage: View {
             }
         }
         .navigationBarHidden(true)
+
+struct Second_Page: View {
+    var body: some View {
+        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+
     }
 }
 
 #Preview {
+
     SecondPage()
+}
+
+=======
+    Second_Page()
 }
 

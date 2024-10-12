@@ -1,8 +1,12 @@
+
 //  для связи между этим проектом и конкретной БД
+=======
+
 //
 //  Supabase.swift
 //  DemExam_Ushakova
 //
+
 //  Created by Ушакова Антонина Андреевна on 12.10.2024.
 //
 
@@ -16,3 +20,7 @@ let supabase = SupabaseClient (
 )
 
 
+//  Created by User on 12.10.2024.
+//
+
+import Foundation

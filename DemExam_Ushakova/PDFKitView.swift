@@ -1,4 +1,7 @@
+
 // пыталась реализовать функцию для просмотра пдф файла, но что-то пошло не так
+=======
+
 //
 //  PDFKitView.swift
 //  DemExam_Ushakova
@@ -7,6 +10,7 @@
 //
 
 import SwiftUI
+
 import PDFKit
 
 struct PDFKitView: UIViewRepresentable {
@@ -25,4 +29,15 @@ struct PDFKitView: UIViewRepresentable {
     func updateUIView(_ uiView: PDFView, context: Context) {
         
     }
+}
+
+
+struct PDFKitView: View {
+    var body: some View {
+        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+    }
+}
+
+#Preview {
+    PDFKitView()
 }

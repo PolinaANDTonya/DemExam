@@ -1,13 +1,22 @@
+
 //  верстка страницы "New Password"
+=======
+
 //
 //  New Password.swift
 //  DemExam_Ushakova
 //
+
 //  Created by Ушакова Антонина Андреевна on 12.10.2024.
+=======
+//  Created by User on 12.10.2024.
+//
+
 
 import SwiftUI
 
 struct New_Password: View {
+
     
     @State var MailAddress: String = ""
     @State var Pass: String = ""
@@ -153,6 +162,10 @@ struct New_Password: View {
             }
         }
         .navigationBarHidden(true)
+=======
+    var body: some View {
+        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+
     }
 }
 

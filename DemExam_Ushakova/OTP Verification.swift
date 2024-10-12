@@ -1,3 +1,4 @@
+//  для страницы "OTP_Virification"
 //
 //  OTP Verification.swift
 //  DemExam_Ushakova
@@ -83,7 +84,7 @@ struct OTP_Verification: View {
                         
                         if count > 0 {
                             Text("resend after \(count == 60 ? "1:00" : count > 9 ? "0:\(count)" : "0:0\(count)")")
-                                .font(.custom("Roboto", size: 14))
+                                .font(.custom("Roboto", size: 14))    //таймер
                         }
                         }
                     .font(.custom("Roboto", size: 14))
@@ -95,7 +96,7 @@ struct OTP_Verification: View {
                         
                         Button(action: {print ("Работаем")
                             
-                            if (first + sec + third + fourth + fifth + six) == ""
+                            if (first + sec + third + fourth + fifth + six) == ""  //проверка на дурака
                             {
                                 isShowAlert = true
                             }

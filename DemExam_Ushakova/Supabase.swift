@@ -1,3 +1,4 @@
+//  для связи между этим проектом и конкретной БД
 //
 //  Supabase.swift
 //  DemExam_Ushakova

@@ -1,3 +1,4 @@
+// для экрана "Log in"
 //
 //  Second Page.swift
 //  DemExam_Ushakova
@@ -50,7 +51,7 @@ struct SecondPage: View {
                         .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
                     
                    
-                    VStack {
+                    VStack {                                                                                // принцип работы как на первом экране
                                 Group {
                                     if isShowingPassword2 {
                                         TextField("********", text: $userViewModel.password)

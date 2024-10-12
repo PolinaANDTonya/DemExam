@@ -1,3 +1,4 @@
+//  для экрана "Forgot Password"
 //
 //  Forgot Password.swift
 //  DemExam_Ushakova
@@ -47,9 +48,9 @@ struct ForgotPassword: View {
                         
                         Button(action: {print ("Работаем")
                             
-                            if userViewModel.MailAddress != "" {
-                                isShowingDetailView = true
-                                userViewModel.resetPasword()
+                            if userViewModel.MailAddress != "" {    //если поле не пустое
+                                isShowingDetailView = true          //переменная для перехода на экран ОТП
+                                userViewModel.resetPasword()        //запуск функции по сбросу пароля
                             }
                             else
                             {

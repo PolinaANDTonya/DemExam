@@ -10,6 +10,7 @@ import SwiftUI
 struct Home: View {
     var body: some View {
         Text("Home")
+            .font(.custom("Roboto", size: 24)) // в отличии от стандартной созщдаваемой страницы, был изменен шрифт как на макете
     }
 }
 

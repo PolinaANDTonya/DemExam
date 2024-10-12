@@ -14,6 +14,22 @@
 		CE9868B22CBA188E00F940D3 /* DemExam_UshakovaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9868B12CBA188E00F940D3 /* DemExam_UshakovaTests.swift */; };
 		CE9868BC2CBA188E00F940D3 /* DemExam_UshakovaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9868BB2CBA188E00F940D3 /* DemExam_UshakovaUITests.swift */; };
 		CE9868BE2CBA188E00F940D3 /* DemExam_UshakovaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9868BD2CBA188E00F940D3 /* DemExam_UshakovaUITestsLaunchTests.swift */; };
+		CE9868CC2CBA19DB00F940D3 /* Registration.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9868CB2CBA19DB00F940D3 /* Registration.swift */; };
+		CE9868CE2CBA1A0300F940D3 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9868CD2CBA1A0300F940D3 /* UserViewModel.swift */; };
+		CE9868D02CBA1A3000F940D3 /* Reposetories.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9868CF2CBA1A3000F940D3 /* Reposetories.swift */; };
+		CE9868D22CBA1A7B00F940D3 /* New Password.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9868D12CBA1A7B00F940D3 /* New Password.swift */; };
+		CE9868D42CBA1AD600F940D3 /* Second Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9868D32CBA1AD600F940D3 /* Second Page.swift */; };
+		CE9868D62CBA1B9D00F940D3 /* Forgot Password.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9868D52CBA1B9D00F940D3 /* Forgot Password.swift */; };
+		CE9868D82CBA1BB900F940D3 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9868D72CBA1BB900F940D3 /* Home.swift */; };
+		CE9868DA2CBA1BD900F940D3 /* OTP Verification.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9868D92CBA1BD900F940D3 /* OTP Verification.swift */; };
+		CE9868DC2CBA1C0200F940D3 /* PDFKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9868DB2CBA1C0200F940D3 /* PDFKitView.swift */; };
+		CE9868DF2CBA1CA400F940D3 /* Auth in Frameworks */ = {isa = PBXBuildFile; productRef = CE9868DE2CBA1CA400F940D3 /* Auth */; };
+		CE9868E12CBA1CA400F940D3 /* Functions in Frameworks */ = {isa = PBXBuildFile; productRef = CE9868E02CBA1CA400F940D3 /* Functions */; };
+		CE9868E32CBA1CA400F940D3 /* PostgREST in Frameworks */ = {isa = PBXBuildFile; productRef = CE9868E22CBA1CA400F940D3 /* PostgREST */; };
+		CE9868E52CBA1CA400F940D3 /* Realtime in Frameworks */ = {isa = PBXBuildFile; productRef = CE9868E42CBA1CA400F940D3 /* Realtime */; };
+		CE9868E72CBA1CA400F940D3 /* Storage in Frameworks */ = {isa = PBXBuildFile; productRef = CE9868E62CBA1CA400F940D3 /* Storage */; };
+		CE9868E92CBA1CA400F940D3 /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = CE9868E82CBA1CA400F940D3 /* Supabase */; };
+		CE9868EB2CBA1D2500F940D3 /* Supabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9868EA2CBA1D2500F940D3 /* Supabase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +60,16 @@
 		CE9868B72CBA188E00F940D3 /* DemExam_UshakovaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemExam_UshakovaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE9868BB2CBA188E00F940D3 /* DemExam_UshakovaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemExam_UshakovaUITests.swift; sourceTree = "<group>"; };
 		CE9868BD2CBA188E00F940D3 /* DemExam_UshakovaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemExam_UshakovaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CE9868CB2CBA19DB00F940D3 /* Registration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Registration.swift; sourceTree = "<group>"; };
+		CE9868CD2CBA1A0300F940D3 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		CE9868CF2CBA1A3000F940D3 /* Reposetories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reposetories.swift; sourceTree = "<group>"; };
+		CE9868D12CBA1A7B00F940D3 /* New Password.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "New Password.swift"; sourceTree = "<group>"; };
+		CE9868D32CBA1AD600F940D3 /* Second Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Second Page.swift"; sourceTree = "<group>"; };
+		CE9868D52CBA1B9D00F940D3 /* Forgot Password.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Forgot Password.swift"; sourceTree = "<group>"; };
+		CE9868D72CBA1BB900F940D3 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		CE9868D92CBA1BD900F940D3 /* OTP Verification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OTP Verification.swift"; sourceTree = "<group>"; };
+		CE9868DB2CBA1C0200F940D3 /* PDFKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFKitView.swift; sourceTree = "<group>"; };
+		CE9868EA2CBA1D2500F940D3 /* Supabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Supabase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +77,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE9868E32CBA1CA400F940D3 /* PostgREST in Frameworks */,
+				CE9868E12CBA1CA400F940D3 /* Functions in Frameworks */,
+				CE9868E92CBA1CA400F940D3 /* Supabase in Frameworks */,
+				CE9868DF2CBA1CA400F940D3 /* Auth in Frameworks */,
+				CE9868E72CBA1CA400F940D3 /* Storage in Frameworks */,
+				CE9868E52CBA1CA400F940D3 /* Realtime in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,7 +107,6 @@
 			isa = PBXGroup;
 			children = (
 				CE98689F2CBA188C00F940D3 /* DemExam_Ushakova */,
-				CE9868B02CBA188E00F940D3 /* DemExam_UshakovaTests */,
 				CE9868BA2CBA188E00F940D3 /* DemExam_UshakovaUITests */,
 				CE98689E2CBA188C00F940D3 /* Products */,
 			);
@@ -94,10 +125,19 @@
 		CE98689F2CBA188C00F940D3 /* DemExam_Ushakova */ = {
 			isa = PBXGroup;
 			children = (
+				CE9868CA2CBA19B600F940D3 /* Supabase */,
 				CE9868A02CBA188C00F940D3 /* DemExam_UshakovaApp.swift */,
 				CE9868A22CBA188C00F940D3 /* ContentView.swift */,
+				CE9868B02CBA188E00F940D3 /* DemExam_UshakovaTests */,
 				CE9868A42CBA188E00F940D3 /* Assets.xcassets */,
 				CE9868A62CBA188E00F940D3 /* Preview Content */,
+				CE9868D12CBA1A7B00F940D3 /* New Password.swift */,
+				CE9868D32CBA1AD600F940D3 /* Second Page.swift */,
+				CE9868D52CBA1B9D00F940D3 /* Forgot Password.swift */,
+				CE9868D72CBA1BB900F940D3 /* Home.swift */,
+				CE9868D92CBA1BD900F940D3 /* OTP Verification.swift */,
+				CE9868DB2CBA1C0200F940D3 /* PDFKitView.swift */,
+				CE9868EA2CBA1D2500F940D3 /* Supabase.swift */,
 			);
 			path = DemExam_Ushakova;
 			sourceTree = "<group>";
@@ -127,6 +167,16 @@
 			path = DemExam_UshakovaUITests;
 			sourceTree = "<group>";
 		};
+		CE9868CA2CBA19B600F940D3 /* Supabase */ = {
+			isa = PBXGroup;
+			children = (
+				CE9868CB2CBA19DB00F940D3 /* Registration.swift */,
+				CE9868CD2CBA1A0300F940D3 /* UserViewModel.swift */,
+				CE9868CF2CBA1A3000F940D3 /* Reposetories.swift */,
+			);
+			path = Supabase;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +193,14 @@
 			dependencies = (
 			);
 			name = DemExam_Ushakova;
+			packageProductDependencies = (
+				CE9868DE2CBA1CA400F940D3 /* Auth */,
+				CE9868E02CBA1CA400F940D3 /* Functions */,
+				CE9868E22CBA1CA400F940D3 /* PostgREST */,
+				CE9868E42CBA1CA400F940D3 /* Realtime */,
+				CE9868E62CBA1CA400F940D3 /* Storage */,
+				CE9868E82CBA1CA400F940D3 /* Supabase */,
+			);
 			productName = DemExam_Ushakova;
 			productReference = CE98689D2CBA188C00F940D3 /* DemExam_Ushakova.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +273,9 @@
 				Base,
 			);
 			mainGroup = CE9868942CBA188C00F940D3;
+			packageReferences = (
+				CE9868DD2CBA1CA400F940D3 /* XCRemoteSwiftPackageReference "supabase-swift" */,
+			);
 			productRefGroup = CE98689E2CBA188C00F940D3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +318,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE9868D42CBA1AD600F940D3 /* Second Page.swift in Sources */,
+				CE9868EB2CBA1D2500F940D3 /* Supabase.swift in Sources */,
+				CE9868DA2CBA1BD900F940D3 /* OTP Verification.swift in Sources */,
+				CE9868DC2CBA1C0200F940D3 /* PDFKitView.swift in Sources */,
 				CE9868A32CBA188C00F940D3 /* ContentView.swift in Sources */,
+				CE9868CE2CBA1A0300F940D3 /* UserViewModel.swift in Sources */,
+				CE9868CC2CBA19DB00F940D3 /* Registration.swift in Sources */,
+				CE9868D82CBA1BB900F940D3 /* Home.swift in Sources */,
+				CE9868D62CBA1B9D00F940D3 /* Forgot Password.swift in Sources */,
 				CE9868A12CBA188C00F940D3 /* DemExam_UshakovaApp.swift in Sources */,
+				CE9868D22CBA1A7B00F940D3 /* New Password.swift in Sources */,
+				CE9868D02CBA1A3000F940D3 /* Reposetories.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -582,6 +653,50 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CE9868DD2CBA1CA400F940D3 /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase/supabase-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CE9868DE2CBA1CA400F940D3 /* Auth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE9868DD2CBA1CA400F940D3 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Auth;
+		};
+		CE9868E02CBA1CA400F940D3 /* Functions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE9868DD2CBA1CA400F940D3 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Functions;
+		};
+		CE9868E22CBA1CA400F940D3 /* PostgREST */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE9868DD2CBA1CA400F940D3 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = PostgREST;
+		};
+		CE9868E42CBA1CA400F940D3 /* Realtime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE9868DD2CBA1CA400F940D3 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Realtime;
+		};
+		CE9868E62CBA1CA400F940D3 /* Storage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE9868DD2CBA1CA400F940D3 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Storage;
+		};
+		CE9868E82CBA1CA400F940D3 /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE9868DD2CBA1CA400F940D3 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CE9868952CBA188C00F940D3 /* Project object */;
 }

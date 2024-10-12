@@ -2,7 +2,7 @@
 //  DemExam_UshakovaApp.swift
 //  DemExam_Ushakova
 //
-//  Created by User on 12.10.2024.
+//  Created by Ушакова Антонина Андреевна on 12.10.2024.
 //
 
 import SwiftUI
